@@ -1,16 +1,28 @@
 #  Pizza Sales Analysis Dashboard (MySQL + Power BI)
 
-This project analyzes the sales performance of a fictional pizza restaurant chain using MySQL for data cleaning and Power BI for dashboard visualization.
-It uncovers trends in revenue, orders, customer preferences, and product performance.
+This project analyzes the sales performance of a fictional pizza restaurant chain using MySQL for data querying and analysis and Power BI for interactive dashboard visualization. The analysis uncovers key insights related to revenue trends, order patterns, customer preferences, and product performance.
 
-## Project Overview
-the goal of this project is to understand the sales Trend
+The dataset consists of four relational tables:
 
- Which pizza types and categories drive the most revenue?
- How do sales vary by day, week, and month?
- What are the busiest hours for orders?
- Which products underperform or exceed expectations?
- What’s the impact of size and category on sales?
+orders – captures order-level information such as order ID, date, and time
+
+order_details – stores item-level details including quantity and pizza IDs
+
+pizzas – contains pricing and size information for each pizza
+
+pizza_types – provides pizza names, categories, and ingredient details
+
+These tables were joined using SQL to answer real-world business problem statements, such as:
+
+ Total revenue generated and revenue trends over time
+ 
+ Most popular pizza categories and sizes
+ 
+ Best- and worst-performing pizzas by sales and quantity
+ 
+ Peak ordering hours and daily order patterns
+ 
+ Contribution of each pizza type to overall revenue
 
 ##  Tools & Techniques
 
